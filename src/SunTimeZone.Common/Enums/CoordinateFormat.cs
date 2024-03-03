@@ -7,13 +7,13 @@ namespace SunTimeZone.Common.Enums
         [Description("None")]
         None = 0,
 
-        [Description("Decimal Degree")]
+        [Description("Decimal Degrees")]
         DD = 1,
 
-        [Description("Decimal Degree Second")]
+        [Description("Decimal Degree Seconds")]
         DDS = 2,
 
-        [Description("Degree Minute Second")]
+        [Description("Degree Minute Seconds")]
         DMS = 3,
     }
 }

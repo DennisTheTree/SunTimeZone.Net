@@ -27,6 +27,7 @@ public static class SunTimeZoneCalculator
 
     public static TimeSpan TimeZoneBasedOnLongitude(string longitude, CoordinateFormat format)
     {
-        return new TimeSpan();
+        var decimalDegree = CoordinateParser.longitude(longitude, format);
+        return TimeZoneBasedOnDecimalDegree(decimalDegree);
     }
 }
